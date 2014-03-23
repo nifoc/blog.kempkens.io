@@ -16,3 +16,7 @@ image:
 Daniel Kempkens  
 Kugelsberger Weg 6  
 41849 Wassenberg
+
+## Domains
+
+* blog.kempkens.io
