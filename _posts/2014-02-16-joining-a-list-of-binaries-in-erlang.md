@@ -2,6 +2,7 @@
 layout: post
 title: Joining a List of Binaries in Erlang
 description: "Description and implementation of a function that joins a list of binaries."
+category: posts
 tags: [erlang, programming, english]
 image:
   feature: abstract-3.jpg

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Telegram and Security
-description: "Simple nginx configuration that allows you to proxy most of Microsoft Exchange."
+description: "Some links regarding Telegram and its security model."
+category: posts
 tags: [telegram, whatsapp, app, english]
 image:
   feature: abstract-2.jpg
