@@ -7,7 +7,7 @@ url:              //blog.kempkens.io
 # Owner/author information
 owner:
   name:           Daniel Kempkens
-  avatar:         avatar.jpg
+  avatar:         sidebar/avatar.jpg
   bio:            "I'm a 24-year-old software developer from Germany."
   email:          daniel+blog@kempkens.io
   # Social networking links used in footer. Update and remove as you like.
@@ -61,6 +61,10 @@ kramdown:
     coderay_tab_width: 4
     coderay_bold_every: 10
     coderay_css: class
+
+assets:
+  js_compressor:  uglifier
+  css_compressor: yui
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]

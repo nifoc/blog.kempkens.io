@@ -5,7 +5,7 @@ description: "Blow up a polyline to search inside the generated polygon."
 category: posts
 tags: [javascript, programming, english]
 image:
-  feature: abstract-7.jpg
+  feature: header/abstract-7.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: true
@@ -46,4 +46,4 @@ Since it is nested, you need to call `polygon.coordinates[0]` in order to get ba
 
 You could then use the the coordinates to draw the generated polygon on the map (along with the route), in order to produce something like this:
 
-![Image of the resulting polygon]({{ site.url }}/assets/img/buffered-polyline-1.png)
+{% image posts/buffered-polyline-1.png %}

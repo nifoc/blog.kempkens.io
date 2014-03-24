@@ -5,7 +5,7 @@ description: "Description and implementation of a function that joins a list of 
 category: posts
 tags: [erlang, programming, english]
 image:
-  feature: abstract-3.jpg
+  feature: header/abstract-3.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: true

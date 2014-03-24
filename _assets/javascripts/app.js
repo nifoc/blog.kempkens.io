@@ -1,3 +1,8 @@
+//= require plugins/jquery.dlmenu.js
+//= require plugins/jquery.fitvids.js
+//= require plugins/respond.js
+//= require plugins/socialcount.js
+
 /*! Plugin options and other jQuery stuff */
 
 // dl-menu options

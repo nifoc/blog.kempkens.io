@@ -5,7 +5,7 @@ description: "Simple nginx configuration that allows you to proxy most of Micros
 category: posts
 tags: [nginx, exchange, ops, english]
 image:
-  feature: abstract-10.jpg
+  feature: header/abstract-10.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: true
