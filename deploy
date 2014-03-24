@@ -1,2 +1,10 @@
 #!/usr/bin/env bash
-jekyll build && rsync -avze ssh --delete _site/ kempkens:/var/www/blog
+
+echo "=== Generating static files"
+jekyll build
+
+echo "=== Syncing files"
+rsync -avz --no-o --no-g -e ssh --chmod=og=r -p --delete _site/ kempkens:/var/www/blog
+
+echo "=== Changing permissions"
+ssh kempkens chown -R www-data:www-data /var/www/blog
