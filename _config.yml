@@ -63,6 +63,7 @@ kramdown:
     coderay_css: class
 
 assets:
+  cache: true
   js_compressor:  uglifier
   css_compressor: yui
 
