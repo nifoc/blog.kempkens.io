@@ -19,5 +19,9 @@ Kugelsberger Weg 6
 
 ## Domains
 
-* blog.kempkens.io
-* daniel.xxx
+* [blog.kempkens.io](http://blog.kempkens.io)
+* [daniel.xxx](http://daniel.xxx)
+
+## HTTPS
+
+You might have to import the [CAcert root certificate](http://www.cacert.org/index.php?id=3) in order to not get a security warning.
