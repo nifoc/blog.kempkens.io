@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /about/
-title: About
+permalink: /impressum/
+title: Impressum
 tags: [impressum]
 image:
   feature: header/abstract-5.jpg
@@ -9,13 +9,11 @@ image:
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
-# Impressum
-
-*(German law demands this)*
-
 Daniel Kempkens  
 Kugelsberger Weg 6  
 41849 Wassenberg
+
+*(German law demands this)*
 
 ## Domains
 
