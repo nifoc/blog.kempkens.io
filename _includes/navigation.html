@@ -15,7 +15,10 @@
 					<a href="mailto:{{ site.owner.email }}"><i class="icon-envelope"></i> Email</a>
 				</li>{% endif %}
 				{% if site.owner.twitter %}<li>
-					<a href="http://twitter.com/{{ site.owner.twitter }}"><i class="icon-twitter"></i> Twitter</a>
+					<a href="https://twitter.com/{{ site.owner.twitter }}"><i class="icon-twitter"></i> Twitter</a>
+				</li>{% endif %}
+				{% if site.owner.app_net %}<li>
+					<a href="https://alpha.app.net/{{ site.owner.app_net }}"><i class="icon-adn"></i> App.net</a>
 				</li>{% endif %}
 				{% if site.owner.facebook %}<li>
 					<a href="http://facebook.com/{{ site.owner.facebook }}"><i class="icon-facebook"></i> Facebook</a>
@@ -27,7 +30,7 @@
 					<a href="http://linkedin.com/in/{{ site.owner.linkedin }}"><i class="icon-linkedin"></i> LinkedIn</a>
 				</li>{% endif %}
 				{% if site.owner.github %}<li>
-					<a href="http://github.com/{{ site.owner.github }}"><i class="icon-github"></i> GitHub</a>
+					<a href="https://github.com/{{ site.owner.github }}"><i class="icon-github"></i> GitHub</a>
 				</li>{% endif %}
 				{% if site.owner.stackexchange %}<li>
 					<a href="{{ site.owner.stackexchange }}"><i class="icon-stackexchange"></i> Stackexchange</a>
