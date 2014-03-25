@@ -2,6 +2,7 @@
 layout: post
 title: Exchange Reverse Proxy Using nginx
 description: "Simple nginx configuration that allows you to proxy most of Microsoft Exchange."
+date: 2014-02-17 21:45:00 CET
 category: posts
 tags: [nginx, exchange, ops, english]
 image:

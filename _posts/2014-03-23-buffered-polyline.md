@@ -2,6 +2,7 @@
 layout: post
 title: Buffered Polyline
 description: "Blow up a polyline to search inside the generated polygon."
+date: 2014-03-23 20:00:00 CET
 category: posts
 tags: [javascript, programming, english]
 image:

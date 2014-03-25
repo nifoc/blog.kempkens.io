@@ -2,6 +2,7 @@
 layout: post
 title: Telegram and Security
 description: "Some links regarding Telegram and its security model."
+date: 2014-02-24 22:00:00 CET
 category: posts
 tags: [telegram, whatsapp, app, english]
 image:
