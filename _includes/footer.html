@@ -1,4 +1,4 @@
 <span>
-  &copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/hpstr/">HPSTR Theme</a>.<br />
-  <a href="https://github.com/nifoc/blog.kempkens.io">Source on GitHub</a>
+  &copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/hpstr/">HPSTR Theme</a>.
+  {% if site.source_url %}<br /><a href="{{ site.source_url }}">Source on GitHub</a>{% endif %}
 </span>
