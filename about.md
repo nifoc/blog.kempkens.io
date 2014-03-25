@@ -20,3 +20,4 @@ Kugelsberger Weg 6
 ## Domains
 
 * blog.kempkens.io
+* daniel.xxx
