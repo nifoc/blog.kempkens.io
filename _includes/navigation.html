@@ -6,9 +6,9 @@
 		<li>
 			<a href="#">About</a>
 			<ul class="dl-submenu">
-				<li>
-					<img src="{{ site.owner.avatar | asset_path }}" alt="{{ site.owner.name }} photo" class="author-photo">
-					<h4>{{ site.owner.name }}</h4>
+				<li itemscope itemtype="http://data-vocabulary.org/Person">
+					<img src="{{ site.owner.avatar | asset_path }}" alt="{{ site.owner.name }} photo" class="author-photo" itemprop="photo">
+					<h4 itemprop="name">{{ site.owner.name }}</h4>
 					<p>{{ site.owner.bio }}</p>
 				</li>
 				{% if site.owner.email %}<li>
