@@ -10,18 +10,9 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   (function() {
-    var linkerOptions = {{ site.google_analytics_linker | jsonify }};
     var host = window.location.host;
 
-    if (linkerOptions !== null) {
-      ga('create', '{{ site.google_analytics }}', host, 'auto', {
-        'allowLinker': true
-      });
-      ga('require', 'linker');
-      ga('linker:autoLink', linkerOptions[host]);
-    } else {
-      ga('create', '{{ site.google_analytics }}', host);
-    }
+    ga('create', '{{ site.google_analytics }}', host);
     ga('send', 'pageview');
   })();
 </script>
