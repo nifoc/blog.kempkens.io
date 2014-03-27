@@ -20,6 +20,12 @@ Kugelsberger Weg 6
 * [blog.kempkens.io](http://blog.kempkens.io)
 * [daniel.xxx](http://daniel.xxx)
 
-## HTTPS
+## Security
+
+### HTTPS
 
 You might have to import the [CAcert root certificate](http://www.cacert.org/index.php?id=3) in order to not get a security warning.
+
+### Email
+
+My public PGP key can be found on [Keybase](https://keybase.io/nifoc) ([.asc file](https://keybase.io/nifoc/key.asc)).
