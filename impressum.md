@@ -28,4 +28,5 @@ You might have to import the [CAcert root certificate](http://www.cacert.org/ind
 
 ### Email
 
-My public PGP key can be found on [Keybase](https://keybase.io/nifoc) ([.asc file](https://keybase.io/nifoc/key.asc)).
+My public PGP key can be found on [Keybase](https://keybase.io/nifoc) ([.asc file](https://keybase.io/nifoc/key.asc)) and on [pgp.mit.edu](http://pgp.mit.edu/pks/lookup?op=vindex&search=0xB0680B61D48AE85C).  
+Public key fingerprint: `E1B8 971D D5B5 EF35 90B7 730D B068 0B61 D48A E85C`
