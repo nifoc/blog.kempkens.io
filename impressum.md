@@ -13,7 +13,7 @@ Daniel Kempkens
 Kugelsberger Weg 6  
 41849 Wassenberg
 
-*(German law demands this)*
+Email: {{ site.owner.email }}
 
 ## Domains
 
