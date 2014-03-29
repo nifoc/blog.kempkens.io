@@ -24,7 +24,7 @@ Email: {{ site.owner.email }}
 
 ### HTTPS
 
-You might have to import the [CAcert root certificate](http://www.cacert.org/index.php?id=3) in order to not get a security warning.
+You might have to import the [CAcert certificates](http://www.cacert.org/index.php?id=3) in order to not get a security warning.
 
 ### Email
 
