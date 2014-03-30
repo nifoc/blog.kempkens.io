@@ -10,10 +10,12 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   (function() {
-    var host = window.location.host;
+    var host = window.location.hostname;
 
-    ga('create', '{{ site.google_analytics }}', host);
-    ga('send', 'pageview');
+    if (host !== 'localhost') { // No tracking on localhost
+      ga('create', '{{ site.google_analytics }}', host);
+      ga('send', 'pageview');
+    }
   })();
 </script>
 {% endif %}
