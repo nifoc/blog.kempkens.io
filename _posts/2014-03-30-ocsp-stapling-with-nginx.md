@@ -2,7 +2,7 @@
 layout: post
 title: OCSP Stapling with nginx
 description: "A general explanation of how to set up OCSP stapling with nginx."
-date: 2014-03-30 21:30:00 CET
+date: 2014-03-30 21:30:00 CEST
 category: posts
 tags: [nginx, ocsp, ssl, ops, english]
 image:
