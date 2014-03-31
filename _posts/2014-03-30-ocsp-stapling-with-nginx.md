@@ -3,6 +3,7 @@ layout: post
 title: OCSP Stapling with nginx
 description: "A general explanation of how to set up OCSP stapling with nginx."
 date: 2014-03-30 21:30:00 CEST
+modified: 2014-03-31 23:10:00 CEST
 category: posts
 tags: [nginx, ocsp, ssl, ops, english]
 image:
@@ -187,3 +188,7 @@ Both of those should include a section (with data) named "OCSP Response Data".
 An alternative way to test if OCSP stapling is supported, is by using [Qualys SSL Labs](https://www.ssllabs.com/ssltest/).
 
 Keep in mind that nginx does not include OCSP data in the first response, because it has to fetch it, too. So you probably have to try at least two times to verify if it works or not.
+
+**Update #1**
+
+If you have more than one virtual host with SSL enabled, you have to enable OCSP stapling for every single one. Otherwise nginx will fail silently and not include any stapled OCSP data. (Thanks to [@rmoriz](https://roland.io) for figuring this out)
