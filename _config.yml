@@ -2,7 +2,7 @@ title:            tail call
 description:      '[...] procedure calls may be usefully thought of as GOTO statements [...]'
 disqus_shortname: blog-kempkens-io
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://blog.kempkens.io
+url:              https://blog.kempkens.io
 source_url:       https://github.com/nifoc/blog.kempkens.io
 
 # Owner/author information
