@@ -22,10 +22,6 @@ Email: {{ site.owner.email }}
 
 ## Security
 
-### HTTPS
-
-You might have to import the [CAcert certificates](http://www.cacert.org/index.php?id=3) in order to not get a security warning.
-
 ### Email
 
 My public PGP key can be found on [Keybase](https://keybase.io/nifoc) ([.asc file](https://keybase.io/nifoc/key.asc)) and on [pgp.mit.edu](http://pgp.mit.edu/pks/lookup?op=vindex&search=0xB0680B61D48AE85C).  
