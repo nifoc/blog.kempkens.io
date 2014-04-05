@@ -1,4 +1,10 @@
-<span>
+<p>
   &copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/hpstr/">HPSTR Theme</a>.
   {% if site.source_url %}<br><a href="{{ site.source_url }}">Source on GitHub</a>{% endif %}
-</span>
+</p>
+
+{% if site.ipv6_enabled %}
+  <p class="fancy-icons">
+    <a href="https://en.wikipedia.org/wiki/IPv6">{% image footer/ipv6.png %}</a>
+  </p>
+{% endif %}
