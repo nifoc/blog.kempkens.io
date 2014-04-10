@@ -2,3 +2,6 @@
 _site
 .jekyll-assets-cache
 _drafts
+*~
+*.swp
+*.swo
