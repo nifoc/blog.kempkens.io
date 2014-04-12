@@ -2,7 +2,7 @@
 layout: post
 title: Installing Erlang 17.0 On Mac OS X
 description: "Short description of how to install Erlang/OTP 17.0 using kerl on Mac OS X."
-date: 2014-04-12 20:15:00 CEST
+date: 2014-04-12 21:25:00 CEST
 category: posts
 tags: [erlang, programming, english]
 image:
