@@ -2,7 +2,7 @@
 layout: post
 title: 'Erlang 17.0: Supporting Deprecated Types Without Removing warnings_as_errors'
 description: "Simple workaround for supporting deprecated types and warnings_as_errors."
-date: 2014-04-18 21:25:00 CEST
+date: 2014-04-18 20:25:00 CEST
 category: posts
 tags: [erlang, programming, english]
 image:
