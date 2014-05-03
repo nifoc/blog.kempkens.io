@@ -14,6 +14,7 @@
 
     if (host !== 'localhost') { // No tracking on localhost
       ga('create', '{{ site.google_analytics }}', host);
+      ga('set', 'anonymizeIp', true);
       ga('send', 'pageview');
     }
   })();
