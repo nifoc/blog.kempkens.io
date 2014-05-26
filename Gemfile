@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.1.2'
 
 gem 'jekyll', '~> 2.0.3'
-gem 'jekyll-assets', '~> 0.7.8'
+gem 'jekyll-assets', '~> 0.7.9'
 
 gem 'kramdown', '~> 1.3.3'
 gem 'therubyracer', '~> 0.12.1'
