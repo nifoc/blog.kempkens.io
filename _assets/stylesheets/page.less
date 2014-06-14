@@ -54,6 +54,9 @@ body {
 			.font-rem(30);
 		}
 	}
+	p {
+		color: lighten(@base-color,20);
+	}
 }
 .feature .header-title {
 	position: absolute;
@@ -91,12 +94,15 @@ body {
 			}
 		}
 	}
+	p {
+		color: @white;
+	}
 }
 .entry-image {
 	position: relative;
-	top: -50%;
-	left: -50%;
-	width: 200%;
+	top: -50%; 
+	left: -50%; 
+	width: 200%; 
 	height: 200%;
 	min-height: 400px;
 	overflow: hidden;
@@ -110,12 +116,12 @@ body {
 		background-color: fade(@base-color,30);
 	}
 	img {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		margin: auto;
+		position: absolute; 
+		top: 0; 
+		left: 0; 
+		right: 0; 
+		bottom: 0; 
+		margin: auto; 
 		min-width: 50%;
 		min-height: 50%;
 	}
@@ -290,7 +296,7 @@ body {
 	h3 {
 		margin: 0;
 		.font-rem(28);
-		a {
+		a { 
 			color: @primary;
 		}
 		@media @medium {
@@ -304,11 +310,11 @@ body {
 .list-item {
 	width: 100%;
 	text-align: left;
-	h4 {
+	h4 { 
 		.font-rem(18);
-		margin-bottom: 0;
+		margin-bottom: 0; 
 	}
-	span {
+	span { 
 		display: block;
 		.font-rem(14);
 		color: lighten(@base-color,50);
@@ -322,7 +328,7 @@ body {
 	}
 }
 
-// Post Index
+// Post Index 
 // --------------------------------------------------
 #post-index {
 	#main {
@@ -364,16 +370,6 @@ body {
 	a {
 		color: lighten(@text-color,20);
 	}
-
-	footer {
-		p {
-			margin: 0;
-		}
-
-		.fancy-icons {
-			margin-top: 5px;
-		}
-	}
 }
 
 // Social Share
@@ -381,7 +377,7 @@ body {
 .socialcount {
 	.font-rem(16);
 	font-weight: 700;
-	li {
+	li { 
 		padding-left: 10px;
 		padding-right: 10px;
 	}
@@ -430,7 +426,7 @@ body {
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
-  .entry-image img {
-    height: 100%;
-  }
+	.entry-image img {
+		height: 100%;
+	}
 }
