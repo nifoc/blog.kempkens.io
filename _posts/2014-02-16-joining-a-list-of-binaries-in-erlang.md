@@ -23,9 +23,8 @@ binary_join([], _Sep) ->
   <<>>;
 binary_join([Part], _Sep) ->
   Part;
-binary_join(List, Sep) ->
-  InitAcc = hd(List),
-  lists:foldr(fun (Value, Acc) -> <<Acc/binary, Sep/binary, Value/binary>> end, InitAcc, tl(List)).
+binary_join([Head|Tail], Sep) ->
+  lists:foldl(fun (Value, Acc) -> <<Acc/binary, Sep/binary, Value/binary>> end, Head, Tail).
 {% endhighlight %}
 
 It works just like you would expect:
