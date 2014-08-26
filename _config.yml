@@ -12,7 +12,7 @@ ipv6_enabled:     true
 owner:
   name:           Daniel Kempkens
   avatar:         sidebar/avatar.jpg
-  bio:            "I'm a 24-year-old software developer from Germany."
+  bio:            "I'm a 25-year-old software developer from Germany."
   email:          daniel+blog@kempkens.io
   # Social networking links used in footer. Update and remove as you like.
   homepage: https://kempkens.io
