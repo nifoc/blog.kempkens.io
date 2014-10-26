@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.2'
+ruby '2.1.3'
 
 gem 'jekyll', '~> 2.4.0'
 gem 'jekyll-assets', '~> 0.10.0'
