@@ -5,12 +5,7 @@ description: "Simple nginx configuration that allows you to proxy most of Micros
 date: 2014-02-17 21:45:00 CET
 category: posts
 tags: [nginx, exchange, ops, english]
-image:
-  feature: header/abstract-10.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: true
-share: true
 ---
 
 As it turns out, setting up [nginx](http://nginx.org) as a reverse proxy for Microsoft Exchange is not as easy as [some](http://blog.friedlandreas.net/2013/07/reverseproxy-fur-eas-exchange-activesync-und-owa-outlookwebapp-mit-nginx/) [posts](http://www.administrator.de/wissen/ngnix-als-reverse-proxy-für-exchange-2010-192711.html) suggest.

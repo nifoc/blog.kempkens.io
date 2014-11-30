@@ -6,12 +6,7 @@ date: 2014-03-30 21:30:00 CEST
 modified: 2014-03-31 23:10:00 CEST
 category: posts
 tags: [nginx, ocsp, ssl, ops, english]
-image:
-  feature: header/abstract-4.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: true
-share: true
 ---
 
 Setting up [OCSP stapling](https://en.wikipedia.org/wiki/OCSP_stapling) with [nginx](http://nginx.org/) is more or less straightforward, but depending on what's in your `ssl_certificate` you might run into some issues with it silently failing. So I've decided to write about how I set up OCSP stapling with certificates from [StartSSL](https://www.startssl.com/) and [CAcert](http://www.cacert.org/).

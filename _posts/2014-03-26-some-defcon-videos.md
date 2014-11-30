@@ -5,12 +5,7 @@ description: "Collection of some interesting DEF CON videos."
 date: 2014-03-26 13:55:00 CET
 category: posts
 tags: [defcon, videos, english]
-image:
-  feature: header/abstract-9.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: true
-share: true
 ---
 
 Over the weekend I watched some [DEF CON](https://www.defcon.org) videos on [YouTube](https://www.youtube.com/user/DEFCONConference/videos) and thought I should share some of the interesting ones on here. The two talks on Bitsquatting (by Stucke and Schultz) are especially entertaining and scary.

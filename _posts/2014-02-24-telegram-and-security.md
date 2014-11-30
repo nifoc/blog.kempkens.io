@@ -5,12 +5,7 @@ description: "Some links regarding Telegram and its security model."
 date: 2014-02-24 22:00:00 CET
 category: posts
 tags: [telegram, whatsapp, app, english]
-image:
-  feature: header/abstract-2.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: true
-share: true
 ---
 
 Ever since [Facebook bought WhatsApp](http://techcrunch.com/2014/02/19/facebook-buying-whatsapp-for-16b-in-cash-and-stock-plus-3b-in-rsus/) more and more of the people I know switch to [Telegram](https://telegram.org). One of the main reasons they choose Telegram is because it's "secure" and Telegram itself seems really keen on being seen as a secure, privacy-focused WhatsApp alternative.

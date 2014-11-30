@@ -5,12 +5,7 @@ description: "Simple workaround for supporting deprecated types and warnings_as_
 date: 2014-04-18 20:25:00 CEST
 category: posts
 tags: [erlang, programming, english]
-image:
-  feature: header/abstract-10.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: true
-share: true
 ---
 
 Erlang 17.0 [deprecated some pre-defined types](http://www.erlang.org/download/otp_src_17.0.readme) like `dict()` and `gb_tree()` in favor of `dict:dict()` and `gb_tree:tree()`. The workaround they suggest (`nowarn_deprecated_type`) works in 17.0, but would break once the deprecated types are removed.  

@@ -5,12 +5,7 @@ description: "Blow up a polyline to search inside the generated polygon."
 date: 2014-03-23 20:00:00 CET
 category: posts
 tags: [javascript, programming, english]
-image:
-  feature: header/abstract-7.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: true
-share: true
 ---
 
 At work, we needed a simple way to buffer a polyline in order to search for stuff along the route from A to B. I'll explain how we used Google's Maps API and [JSTS](https://github.com/bjornharrtell/jsts) in order to achieve this easily.
@@ -47,4 +42,4 @@ Since it is nested, you need to call `polygon.coordinates[0]` in order to get ba
 
 You could then use the the coordinates to draw the generated polygon on the map (along with the route), in order to produce something like this:
 
-{% image posts/buffered-polyline-1.png %}
+![Buffered Polyline]({{ site.baseurl }}public/images/buffered-polyline-1.png)

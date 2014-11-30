@@ -5,12 +5,7 @@ description: "Short description of how to install Erlang/OTP 17.0 using kerl on 
 date: 2014-04-12 21:25:00 CEST
 category: posts
 tags: [erlang, programming, english]
-image:
-  feature: header/abstract-8.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: true
-share: true
 ---
 
 It's been a few days since [Erlang/OTP 17.0](http://www.erlang.org/news/73) has been released. Installing 64 Bit Erlang (with [Observer](http://www.erlang.org/doc/man/observer.html) support) on Mac OS X has always been a bit tricky, but with 17.0 it has gotten significantly easier.
@@ -55,4 +50,4 @@ The following `alias` makes it easier to start the Observer from a terminal. The
 alias erlobserver='erl -sname observer -run observer -detached'
 {% endhighlight %}
 
-{% image posts/installing-erlang-17-0-using-kerl-1.png %}
+![Erlang Observer]({{ site.baseurl }}public/images/installing-erlang-17-0-using-kerl-1.png)

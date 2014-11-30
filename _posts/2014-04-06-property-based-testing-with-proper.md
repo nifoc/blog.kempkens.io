@@ -5,12 +5,7 @@ description: "Property-based testing in Erlang, with some basic usage examples."
 date: 2014-04-06 20:15:00 CEST
 category: posts
 tags: [erlang, quickcheck, testing, programming, english]
-image:
-  feature: header/abstract-6.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: true
-share: true
 ---
 
 [PropEr](http://proper.softlab.ntua.gr/) is a [QuickCheck](https://en.wikipedia.org/wiki/QuickCheck)-inspired property-based testing tool for Erlang. In contrast to traditional testing methodologies, the tester only has to provide the generic structure of valid inputs and some properties, which specify the relation between input and output. The testing tool will then produce progressively more complex valid inputs and compare the results it gets to what it expected (based on the defined properties).  

@@ -5,12 +5,7 @@ description: "Introductory post about the Riemann client I've written."
 date: 2014-05-04 21:55:00 CEST
 category: posts
 tags: [erlang, programming, riemann, katja, english]
-image:
-  feature: header/abstract-11.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: true
-share: true
 ---
 
 [Riemann](http://riemann.io) is a network monitoring system written in Clojure, it offers a rather simple [protobuf](https://de.wikipedia.org/wiki/Protocol_Buffers)-based API. I have just tagged [Katja](https://github.com/nifoc/katja) [version 0.1](https://github.com/nifoc/katja/tree/v0.1), my Riemann client written in Erlang.

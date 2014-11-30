@@ -5,19 +5,14 @@ description: "Description and implementation of a function that joins a list of 
 date: 2014-02-16 15:30:00 CET
 category: posts
 tags: [erlang, programming, english]
-image:
-  feature: header/abstract-3.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: true
-share: true
 ---
 
 The binary module in Erlang provides an easy way to split binaries using `split/2,3`, but what if you want to join a list of binaries back together?
 
 There is no built-in function to do this, so I've decided to write my own.
 
-{% highlight erlang linenos %}
+{% highlight erlang %}
 -spec binary_join([binary()], binary()) -> binary().
 binary_join([], _Sep) ->
   <<>>;
