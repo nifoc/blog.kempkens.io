@@ -21,7 +21,7 @@
       (function() {
         var host = window.location.hostname;
 
-        if (host !== 'localhost') { // No tracking on localhost
+        if (host !== 'localhost' && host !== '127.0.0.1') { // No tracking on localhost
           ga('create', 'UA-28082386-3', host);
           ga('set', 'anonymizeIp', true);
           ga('send', 'pageview');
