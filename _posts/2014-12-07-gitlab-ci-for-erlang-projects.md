@@ -18,15 +18,15 @@ The build script that is used to run Erlang tests looks like this:
 
 {% highlight bash %}
 # Setup
-source $HOME/.kerl/installs/17.3/activate
-gitlabdir=$(basename `pwd`)
+source "$HOME/.kerl/installs/17.3/activate"
+gitlabdir=$(basename "$(pwd)")
 appdir=$(cat src/*.app.src | tr ',' '\n' | sed '2q;d' | tr -d ' ' | tr -d '\n')
 
 # Rename directory
 cd ..
-rm -rf $appdir
-mv $gitlabdir $appdir
-cd $appdir
+rm -rf "$appdir"
+mv "$gitlabdir" "$appdir"
+cd "$appdir"
 
 # Run tests
 make dialyze
@@ -37,8 +37,8 @@ ls -rt $(find ./logs -name "cover.html") | tail -n 1 | xargs cat | grep -F 'Tota
 
 # Cleanup
 cd ..
-mv $appdir $gitlabdir
-cd $gitlabdir
+mv "$appdir" "$gitlabdir"
+cd "$gitlabdir"
 {% endhighlight %}
 
 **Setup**
