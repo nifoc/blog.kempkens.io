@@ -24,4 +24,4 @@ include:                                [".htaccess"]
 exclude:                                ["tmp", "Gemfile", "Gemfile.lock", "Makefile"]
 
 # Custom
-disqus_shortname: blog-kempkens-io
+disqus_shortname:                       blog-kempkens-io
