@@ -25,4 +25,4 @@ After these changes your `auth.log` will probably contain this line rather often
 fatal: no matching cipher found: client aes128-ctr,aes192-ctr,aes256-ctr,aes256-cbc,rijndael-cbc@lysator.liu.se,aes192-cbc,aes128-cbc,blowfish-cbc,arcfour128,arcfour,cast128-cbc,3des-cbc server chacha20-poly1305@openssh.com,aes256-gcm@openssh.com [preauth]
 {% endhighlight %}
 
-Please keep in mind that this will not prevent bots from attacking you (in the future) and that you have to prevent these attacks by other means. I only wrote this post because I thought it is kind of interesting that SSH bots do not support these settings *right now*.
+Please keep in mind that this will not prevent bots from attacking you (in the future) and that you have to mitigate these attacks by other means. I only wrote this post because I thought it was kind of interesting that SSH bots do not support these settings *right now*.
