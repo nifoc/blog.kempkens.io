@@ -2,7 +2,6 @@
 layout: page
 permalink: /impressum/
 title: Impressum
-tags: [impressum]
 ---
 
 Daniel Kempkens  
