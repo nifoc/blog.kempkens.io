@@ -10,7 +10,7 @@ comments: true
 
 At work, we needed a simple way to buffer a polyline in order to search for stuff along the route from A to B. I'll explain how we used Google's Maps API and [JSTS](https://github.com/bjornharrtell/jsts) in order to achieve this easily.
 
-The first thing we had to do, was to "transform" each element in the `overview_path` (which the `DirectionsService` returns) to GeoJSON, because that's what JSTS understands.
+The first thing we had to do was to "transform" each element in the `overview_path` (which the `DirectionsService` returns) to GeoJSON, because that's what JSTS understands.
 
 {% highlight javascript linenos %}
 var overviewPath = response.routes[0].overview_path,
