@@ -28,7 +28,7 @@ ifeq ($(otp_17plus),0)
 endif
 {% endhighlight %}
 
-This will define `namespaced_types` only on Erlang 17+, allowing you to use the same `ifdef`-switch from April.
+This will define `namespaced_types` only on Erlang 17+, allowing us to use the same `ifdef`-switch from April.
 
 {% highlight erlang linenos %}
 -ifdef(namespaced_types).
