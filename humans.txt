@@ -1,0 +1,12 @@
+---
+layout: null
+---
+/* TEAM */
+Author: {{ site.author.name }}
+Contact: {{ site.author.email }}
+Twitter: {{ site.author.twitter }}
+From: {{ site.author.location }}
+
+/* SITE */
+Last update: {{ site.time | date: '%Y/%m/%d' }}
+Software: Jekyll, MacVim
