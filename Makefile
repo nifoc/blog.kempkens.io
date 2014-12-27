@@ -1,4 +1,4 @@
-all: compile upload
+all: compile upload superfeedr
 
 compile:
 	@echo "=== Generating static files"
