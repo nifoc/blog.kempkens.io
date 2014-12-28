@@ -4,7 +4,7 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ site.title }}</title>
-  <link rel="self" href="{{ site.url }}/feed.xml" />
+  <link rel="self" href="{{ "/feed.xml" | prepend: site.url }}" />
   <link href="{{ site.url }}/"/>
   <link rel="hub" href="{{ site.hub_url }}/" />
   <updated>{{ site.time | date_to_xmlschema }}</updated>
@@ -18,7 +18,7 @@ layout: null
     <entry>
       <id>{{ site.url }}{{ post.id }}</id>
       <title>{{ post.title }}</title>
-      <link href="{{ site.url }}{{ post.url }}" />
+      <link href="{{ post.url | prepend: site.url }}" />
       <published>{{ post.date | date_to_xmlschema }}</published>
       {% if post.modified != nil %}
         <updated>{{ post.modified | date_to_xmlschema }}</updated>
