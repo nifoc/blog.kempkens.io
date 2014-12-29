@@ -355,7 +355,7 @@ tbody tr:nth-child(odd) th {
   color: #9a9a9a;
 }
 .post-date a:hover {
-  color: #000;
+  color: #303030;
   text-decoration: none;
 }
 
