@@ -351,6 +351,13 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 1rem;
   color: #9a9a9a;
 }
+.post-date a {
+  color: #9a9a9a;
+}
+.post-date a:hover {
+  color: #000;
+  text-decoration: none;
+}
 
 /* Related posts */
 .related {
