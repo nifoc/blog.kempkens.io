@@ -2,7 +2,7 @@ all: compile upload superfeedr
 
 compile:
 	@echo "=== Generating static files"
-	@bundle exec jekyll build
+	@bundle exec jekyll build --lsi
 	@echo "Done."
 
 upload:
