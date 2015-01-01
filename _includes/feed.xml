@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title | append: include.title }}</title>
+  <link rel="self" href="{{ include.path | prepend: site.url }}" />
+  <link href="{{ site.url }}/" />
+  <link rel="hub" href="{{ site.hub_url }}/" />
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url | append: include.id }}</id>
+  <author>
+    <name>{{ site.author.name }}</name>
+    <email>{{ site.author.email }}</email>
+  </author>
+
+  {% for post in include.posts %}
+    <entry>
+      <id>{{ site.url }}{{ post.id }}</id>
+      <title>{% if post.category == "links" %}Link: {% endif %}{{ post.title }}</title>
+      <link href="{{ post.url | prepend: site.url }}" />
+      <published>{{ post.date | date_to_xmlschema }}</published>
+      {% if post.modified != nil %}
+        <updated>{{ post.modified | date_to_xmlschema }}</updated>
+      {% else %}
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+      {% endif %}
+      {% if post.category == "links" %}
+        <content type="html">
+          {% capture linktext %}<p><strong>Link:</strong> <a href="{{ post.link }}">{{ post.link | hostname }}</a></p>{% endcapture %}
+          {{ linktext | xml_escape }}
+          {{ post.content | xml_escape }}
+        </content>
+      {% else %}
+        <content type="html">{{ post.content | xml_escape }}</content>
+      {% endif %}
+    </entry>
+  {% endfor %}
+</feed>

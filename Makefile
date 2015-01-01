@@ -16,4 +16,5 @@ upload:
 superfeedr:
 	@echo "=== Notifying Superfeedr"
 	@curl -X POST https://kempkens.superfeedr.com -d "hub.mode=publish" -d "hub.url=https://blog.kempkens.io/feed.xml"
+	@curl -X POST https://kempkens.superfeedr.com -d "hub.mode=publish" -d "hub.url=https://blog.kempkens.io/feed-with-links.xml"
 	@echo "Done."

@@ -351,13 +351,6 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 1rem;
   color: #9a9a9a;
 }
-.post-date a {
-  color: #9a9a9a;
-}
-.post-date a:hover {
-  color: #303030;
-  text-decoration: none;
-}
 
 /* Related posts */
 .related {
@@ -414,6 +407,40 @@ tbody tr:nth-child(odd) th {
 /* Only provide a hover state for linked pagination items */
 a.pagination-item:hover {
   background-color: #f5f5f5;
+}
+
+
+/* Custom */
+.post-date a {
+  color: #9a9a9a;
+}
+.post-date a:hover {
+  color: #303030;
+  text-decoration: none;
+}
+
+.post-link > span {
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 3rem;
+  font-size: 75%;
+}
+.footer-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+.footer-links li {
+  display: inline;
+}
+.footer-links li.divider {
+  color: #eee;
+}
+.footer-links li a {
+  color: #515151;
 }
 
 @media (min-width: 30em) {
