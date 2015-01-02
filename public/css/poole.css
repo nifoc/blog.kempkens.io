@@ -436,8 +436,9 @@ a.pagination-item:hover {
 .footer-links li {
   display: inline;
 }
-.footer-links li.divider {
-  color: #eee;
+.footer-links li.divider:after {
+  content: "|";
+  color: #ccc;
 }
 .footer-links li a {
   color: #515151;
