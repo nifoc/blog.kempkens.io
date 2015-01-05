@@ -1,7 +1,7 @@
 ---
 layout: link
 title: A Gentle Introduction to Elliptic-Curve Cryptography
-date: 2014-12-31 16:33:00 CEST
+date: 2014-12-31 16:33:00 CET
 category: links
 link: http://media.ccc.de/browse/congress/2014/31c3_-_6369_-_en_-_saal_1_-_201412272145_-_ecchacks_-_djb_-_tanja_lange.html#video
 ---
