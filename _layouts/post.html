@@ -15,6 +15,7 @@ layout: default
       <li>
         <h3>
           <a href="{{ post.url }}">
+            {% if post.category == "links" %}&#9875;{% endif %}
             {{ post.title }}
             <small>{{ post.date | date_to_string }}</small>
           </a>

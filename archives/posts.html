@@ -17,6 +17,7 @@ title: Post Archive
   {% endif %}
 
   <li>
-    {% if post.category == "links" %}&#9875;{% endif %} <a href="{{ post.url }}">{{ post.title }}</a>
+    {% if post.category == "links" %}&#9875;{% endif %}
+    <a href="{{ post.url }}">{{ post.title }}</a>
   </li>
 {% endfor %}
