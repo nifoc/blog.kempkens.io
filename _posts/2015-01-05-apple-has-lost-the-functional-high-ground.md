@@ -1,7 +1,7 @@
 ---
 layout: link
 title: Apple Has Lost the Functional High Ground
-date: 2015-01-05 16:33:00 CET
+date: 2015-01-05 17:39:00 CET
 category: links
 link: http://www.marco.org/2015/01/04/apple-lost-functional-high-ground
 ---
