@@ -28,7 +28,7 @@
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }} Feed (with links)" href="{{ "/feed-with-links.xml" | prepend: site.url }}">
 
   <!-- humans.txt -->
-  <link rel="author" href="/humans.txt">
+  <link rel="author" href="{{ "humans.txt" | prepend: site.baseurl }}">
 
   {% if page.category == "posts" %}
     <!-- Twitter -->
