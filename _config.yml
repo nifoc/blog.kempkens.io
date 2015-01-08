@@ -28,3 +28,7 @@ exclude:                                ["tmp", "Gemfile", "Gemfile.lock", "Make
 
 # Custom
 disqus_shortname:                       blog-kempkens-io
+
+footer:
+  github:                               nifoc
+  ipv6_check:                           kempkens.io
