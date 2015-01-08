@@ -22,6 +22,10 @@ Email: {{ site.author.email }}
 My public PGP key can be found on [Keybase](https://keybase.io/nifoc) ([.asc file](https://keybase.io/nifoc/key.asc)) and on [pgp.mit.edu](http://pgp.mit.edu/pks/lookup?op=vindex&search=0xB0680B61D48AE85C).  
 Public key fingerprint: `E1B8 971D D5B5 EF35 90B7 730D B068 0B61 D48A E85C`
 
+### HTTP
+
+This blog makes use of [HSTS](http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security), [HPKP](https://developer.mozilla.org/en-US/docs/Web/Security/Public_Key_Pinning), [strong ciphers](https://www.ssllabs.com/ssltest/analyze.html?d={{ site.url | hostname }}&hideResults=on) and various other security-related *technologies*.
+
 *German law demands the following statements, too.*
 
 ## Datenschutzerklärung
