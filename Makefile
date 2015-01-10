@@ -1,8 +1,13 @@
-all: compile upload superfeedr
+all: compile compress upload superfeedr
 
 compile:
 	@echo "=== Generating static files"
 	@bundle exec jekyll build --lsi
+	@echo "Done."
+
+compress:
+	@echo "=== Compressing generated files"
+	@find ./_site -type f | xargs gzip -k -9
 	@echo "Done."
 
 upload:

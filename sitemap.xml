@@ -8,11 +8,10 @@ layout: null
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
   </url>
 
-  {% assign pages_list = site.pages %}
-  {% for node in pages_list %}
-    {% if node.title != null and node.url != '/404.html' %}
+  {% for page in site.pages %}
+    {% if page.title != null and page.url != '/404.html' %}
       <url>
-        <loc>{{ site.url }}{{ node.url }}</loc>
+        <loc>{{ site.url }}{{ page.url }}</loc>
       </url>
     {% endif %}
   {% endfor %}
