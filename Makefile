@@ -1,6 +1,6 @@
 all: compile compress upload superfeedr
 
-compile:
+compile: clean
 	@echo "=== Generating static files"
 	@bundle exec jekyll build --lsi
 	@echo "Done."
@@ -23,3 +23,6 @@ superfeedr:
 	@curl -X POST https://kempkens.superfeedr.com -d "hub.mode=publish" -d "hub.url=https://blog.kempkens.io/feed.xml"
 	@curl -X POST https://kempkens.superfeedr.com -d "hub.mode=publish" -d "hub.url=https://blog.kempkens.io/feed-with-links.xml"
 	@echo "Done."
+
+clean:
+	@rm -rf ./_site
