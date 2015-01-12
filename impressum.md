@@ -12,8 +12,8 @@ Email: {{ site.author.email }}
 
 ## Domains
 
-* [blog.kempkens.io](http://blog.kempkens.io)
-* [daniel.xxx](http://daniel.xxx)
+* [blog.kempkens.io](https://blog.kempkens.io)
+* [daniel.xxx](https://daniel.xxx)
 
 ## Security
 
