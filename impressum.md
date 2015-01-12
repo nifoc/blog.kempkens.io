@@ -24,7 +24,7 @@ Public key fingerprint: `E1B8 971D D5B5 EF35 90B7 730D B068 0B61 D48A E85C`
 
 ### HTTP
 
-This blog makes use of [HSTS](http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security), [HPKP](https://developer.mozilla.org/en-US/docs/Web/Security/Public_Key_Pinning), [strong ciphers](https://www.ssllabs.com/ssltest/analyze.html?d={{ site.url | hostname }}&hideResults=on) and various other security-related *technologies*.
+This blog makes use of [HSTS](http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security), [HPKP](https://developer.mozilla.org/en-US/docs/Web/Security/Public_Key_Pinning), [strong ciphers](https://www.ssllabs.com/ssltest/analyze.html?d={{ site.url | hostname }}&hideResults=on) and various other security-related technologies.
 
 *German law demands the following statements, too.*
 
