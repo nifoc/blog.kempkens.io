@@ -42,4 +42,4 @@ Since it is nested, you need to call `polygon.coordinates[0]` in order to get ba
 
 You could then use the the coordinates to draw the generated polygon on the map (along with the route), in order to produce something like this:
 
-![Buffered Polyline]({{ "public/images/buffered-polyline-1.png" | prepend: site.baseurl }})
+{% image buffered-polyline-1.png %}

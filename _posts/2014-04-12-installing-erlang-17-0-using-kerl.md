@@ -50,4 +50,4 @@ The following `alias` makes it easier to start the Observer from a terminal. The
 alias erlobserver='erl -sname observer -run observer -detached'
 {% endhighlight %}
 
-![Erlang Observer]({{ "public/images/installing-erlang-17-0-using-kerl-1.png" || prepend: site.baseurl }})
+{% image installing-erlang-17-0-using-kerl-1.png %}

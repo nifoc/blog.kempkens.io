@@ -27,6 +27,10 @@ include:                                [".htaccess"]
 exclude:                                ["tmp", "Gemfile", "Gemfile.lock", "Makefile"]
 
 # Custom
+assets:
+  gzip:                                 []
+  css_compressor:                       yui
+
 disqus_shortname:                       blog-kempkens-io
 
 footer:
