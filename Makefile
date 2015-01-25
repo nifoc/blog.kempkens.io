@@ -7,7 +7,7 @@ compile: clean
 
 compress:
 	@echo "=== Compressing generated files"
-	@find ./_site -type f | xargs zopfli --gzip --i25
+	@find ./_site -type f | xargs zopfli --gzip --i30
 	@echo "Done."
 
 upload:
