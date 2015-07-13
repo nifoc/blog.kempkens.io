@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Porting pcsensor to FreeBSD
-description: "Introducing my port of the pcsensor utility to FreBSD."
+description: "Introducing my port of the pcsensor utility to FreeBSD."
 date: 2015-07-12 18:46:00 CEST
 category: posts
 tags: [pcsensor, freebsd, english]
