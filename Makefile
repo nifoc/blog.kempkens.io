@@ -12,10 +12,11 @@ compress:
 
 upload:
 	@echo "=== Syncing files"
-	@rsync -avz --no-o --no-g -e ssh --chmod=og=r -p --delete _site/ webserver.kempkens.io:/var/www/blog
+	@rsync -avz --no-o --no-g -e ssh --chmod=og=r -p --delete _site/ kempkens.io:/iocage/jails/506fd9f8-15c0-11e5-adf5-477a0b920463/root/var/www/blog
 	@echo "Done."
 	@echo "=== Changing permissions"
-	@ssh webserver.kempkens.io chown -R www:www /var/www/blog
+	@ssh kempkens.io chmod 755 /iocage/jails/506fd9f8-15c0-11e5-adf5-477a0b920463/root/var/www/blog
+	@ssh kempkens.io find /iocage/jails/506fd9f8-15c0-11e5-adf5-477a0b920463/root/var/www/blog -type d -exec chmod 755 {} +
 	@echo "Done."
 
 superfeedr:
