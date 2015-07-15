@@ -10,7 +10,7 @@ comments: true
 
 Last week, it got rather hot where I live and so I got interested in measuring the temperature of the room where I keep my NAS and various other devices. I started looking for cheap USB thermometers and quickly found [this one](http://www.amazon.de/gp/product/B009RETJIO). It has some decent reviews and costs only around 16€, which seemed perfect to simply play around with.
 
-The device only comes bundled with Windows software, but there is an open source utility called `pcsensor` which allows you use it via the command line on Linux. I don't have any Linux devices in the room that I wanted to measure. Since the source code was pretty straightforward and only minimal changes were required to port the utility to FreeBSD, I did just that! You can find the ported source code on [GitHub](https://github.com/nifoc/pcsensor-freebsd).
+The device only comes bundled with Windows software, but there is an open source utility called `pcsensor` which allows you to use it via the command line on Linux. I don't have any Linux devices in the room that I wanted to measure. Since the source code was pretty straightforward and only minimal changes were required to port the utility to FreeBSD, I did just that! You can find the ported source code on [GitHub](https://github.com/nifoc/pcsensor-freebsd).
 
 {% highlight text %}
 $ pcsensor -h
