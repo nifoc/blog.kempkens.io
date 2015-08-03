@@ -43,7 +43,7 @@ For CAcert (and unless you have a Class 3 certificate) you only have to include 
 StartSSL - using a Class 1 certificate again - has an intermediate certificate in their chain, so you have to include this one in your stapling file, too.
 
 {% highlight text %}
-03/08/2015: Removed. Get root certificate and the intermediate certificate here: https://www.startssl.com/certs/
+03/08/2015: Removed. Get the root certificate and the intermediate certificate here: https://www.startssl.com/certs/
 {% endhighlight %}
 
 After you've done all that, you can restart nginx or reload the configuration and you should be good to go!
