@@ -9,7 +9,7 @@ relative_permalinks:                    true
 # Setup
 title:                                  tail call
 tagline:                                Ramblings in software development
-description:                            The ramblings of a 25-year-old software developer from Germany.
+description:                            The ramblings of a 26-year-old software developer from Germany.
 url:                                    https://blog.kempkens.io
 hub_url:                                https://kempkens.superfeedr.com
 baseurl:                                /
