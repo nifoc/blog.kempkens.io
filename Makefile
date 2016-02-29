@@ -5,9 +5,11 @@ compile: clean
 	@bundle exec jekyll build --lsi
 	@echo "Done."
 
-compress:
+compress: compile
 	@echo "=== Compressing generated files"
 	@find ./_site -type f | xargs zopfli --gzip --i30
+	@find ./_site -type f ! -name "*.gz" | xargs -I {} bro --quality 11 --input {} --output {}.br
+	@find ./_site -type f -name "*.br" | xargs chmod 644
 	@echo "Done."
 
 upload:
