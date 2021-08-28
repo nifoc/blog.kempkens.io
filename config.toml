@@ -1,0 +1,38 @@
+baseURL = "https://blog.kempkens.io"
+languageCode = "en-en"
+title = "tail call"
+theme = "terminal"
+paginate = 5
+
+[params]
+  contentTypeName = "posts"
+  themeColor = "orange"
+  showMenuItems = 2
+  showLanguageSelector = false
+  fullWidthTheme = false
+  centerTheme = true
+  showLastUpdated = false
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "tail call"
+    subtitle = "The ramblings of a software developer from Germany"
+    owner = "Daniel Kempkens"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+
+    [languages.en.params.logo]
+      logoText = "tail call"
+      logoHomeLink = "/"
+
+[outputFormats]
+  [outputFormats.RSS]
+    baseName = "feed"

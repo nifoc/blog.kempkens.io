@@ -1,4 +1,0 @@
----
-layout: null
----
-{% include feed.xml id="/feed-with-links.xml" path="/feed-with-links.xml" title=" (with links)" posts=site.posts %}

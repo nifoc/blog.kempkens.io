@@ -1,4 +1,0 @@
----
-layout: null
----
-{% include feed.xml path="/feed.xml" posts=site.categories.posts %}
