@@ -1,7 +1,7 @@
 ---
 date: "2014-03-30T21:30:00Z"
 description: A general explanation of how to set up OCSP stapling with nginx.
-modified: 2015-08-03 20:55:00 CEST
+modified: "2015-08-03T22:55:00Z"
 tags:
 - nginx
 - ocsp
