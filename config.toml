@@ -2,7 +2,7 @@ baseURL = "https://blog.kempkens.io"
 languageCode = "en-en"
 title = "tail call"
 theme = "terminal"
-paginate = 5
+pagination.pagerSize = 5
 
 [params]
   contentTypeName = "posts"
